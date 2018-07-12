@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>Tasks</span>
+    <span class="spacer"></span>
+    <mat-chip-list class="mat-chip-list">
+      <mat-chip><mat-icon class="icon">check_circle</mat-icon><h3>{{resolvedTasksCount}}</h3></mat-chip>
+      <mat-chip><mat-icon class="icon">report_problem</mat-icon><h3>{{unresolvedTasksCount}}</h3></mat-chip>
+    </mat-chip-list>
+  </mat-toolbar-row>
+</mat-toolbar>
